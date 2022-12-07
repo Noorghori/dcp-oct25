@@ -70,8 +70,8 @@ ssh ansibleadmin@172.31.2.104
 ###update vi etc/ansible/host
 
 [testnodes]
-samplenode1 ansible_ssh_host=172.31.36.159 ansible_ssh_user=ansibleadmin 
-samplenode2 ansible_ssh_host=172.31.35.164 ansible_ssh_user=ansibleadmin
+samplenode1 ansible_ssh_host=172.31.10.44 ansible_ssh_user=ansibleadmin 
+samplenode2 ansible_ssh_host=172.31.2.104 ansible_ssh_user=ansibleadmin
 
 #**************************************
 #hosts file is the default Inventory file for ansible 
